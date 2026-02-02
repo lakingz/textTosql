@@ -1,0 +1,8 @@
+{
+  "template": "mom_drop",
+  "columns": ["player_id", "monthly_gains", "prev_month_gains"],
+  "filters": {"reference_month": "2026-01-01", "drop_pct": 0.30},
+  "order": "mom_drop DESC",
+  "limit": 100,
+  "confidence": 0.92
+}

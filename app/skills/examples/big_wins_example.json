@@ -1,0 +1,8 @@
+{
+  "template": "big_wins",
+  "columns": ["player_id", "reward", "event_time"],
+  "filters": {"min_reward": 10000, "start_dt": "2026-01-26 00:00:00", "end_dt": "2026-02-02 00:00:00"},
+  "order": "reward DESC",
+  "limit": 50,
+  "confidence": 0.92
+}

@@ -1,0 +1,8 @@
+{
+  "template": "inactive_players",
+  "columns": ["player_id", "last_activity"],
+  "filters": {"inactive_days": 30},
+  "order": "last_activity ASC",
+  "limit": 500,
+  "confidence": 0.95
+}
